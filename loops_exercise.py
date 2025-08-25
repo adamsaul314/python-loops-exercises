@@ -49,12 +49,25 @@ student = {"name": "Alice", "age": 20, "grade": "A"}
 # Exercise 6: Print numbers from 1 to 10 using a while loop.
 # Your solution here:
 
+# count = 1
+# while count <= 10:
+#     print(count)
+#     count += 1
+
 # Exercise 7: Keep asking the user for input until they type "exit".
 # (Tip: use input() function)
 # Your solution here:
 
+# while exit != "exit":
+#     exit = input("Enter 'Exit': ")
+
 # Exercise 8: Countdown from 10 to 1, then print "Blast off!".
 # Your solution here:
+# count = 10
+# while count >= 1:
+#     print(count)
+#     count -= 1
+# print("Blast Off")
 
 # Exercise 9: Write a while loop that keeps doubling a number
 # starting from 1 until it is greater than 1000.
