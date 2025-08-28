@@ -73,12 +73,12 @@ student = {"name": "Alice", "age": 20, "grade": "A"}
 # starting from 1 until it is greater than 1000.
 # Your solution here:
 
-count = 1
+# count = 1
 
-while count < 1000:
-    count = count * 2
-    if count <= 1000:
-        print(count)
+# while count < 1000:
+#     count = count * 2
+#     if count <= 1000:
+#         print(count)
 
 
 # =========================================================
@@ -88,12 +88,27 @@ while count < 1000:
 # Exercise 10: Loop from 1 to 10, but stop the loop completely if you hit 7.
 # Your solution here:
 
+# for i in range(1, 11):
+#     print(i)
+#     if i == 7:
+#         break
+
 # Exercise 11: Loop from 1 to 10, skip printing the number 5.
 # Your solution here:
+
+# for i in range(1, 11):
+#     if i == 5:
+#         continue
+#     print(i)
 
 # Exercise 12: Use a loop with "pass" as a placeholder.
 # (Hint: create a for loop that does nothing yet)
 # Your solution here:
+
+# for i in range(10,100):
+#     if i == 100:
+#         pass
+#     print(i)
 
 
 # =========================================================
@@ -105,10 +120,28 @@ while count < 1000:
 nums = [1, 2, 4, 6]
 # Your solution here:
 
+# for num in  nums:
+#     print(num)
+#     if num == 3:
+#         print("Found")
+#     else:
+#         print("Not Found")
+
 # Exercise 14: Check if a number is prime using a loop with else.
 # (Prime: only divisible by 1 and itself)
 # Your solution here:
 
+# num = int(input("Enter Number:"))
+
+# if num > 1:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print(num, "is not prime")
+#             break
+#     else:
+#         print(num, "is prime")
+# else:
+#     print(num, "is not prime")
 
 # =========================================================
 # PART 5: NESTED LOOPS
