@@ -73,6 +73,13 @@ student = {"name": "Alice", "age": 20, "grade": "A"}
 # starting from 1 until it is greater than 1000.
 # Your solution here:
 
+count = 1
+
+while count < 1000:
+    count = count * 2
+    if count <= 1000:
+        print(count)
+
 
 # =========================================================
 # PART 3: LOOP CONTROL (break, continue, pass)
